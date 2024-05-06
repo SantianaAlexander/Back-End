@@ -23,7 +23,7 @@ public class HelloServlet extends HttpServlet {
         String password = System.out.println(request.getParameter("password"));
 
         // PUNTO 2.3
-        if (username == "Gino" and password == "Pasquale") {
+        if (username.equals("Gino") and password.equals("Pasquale")) {
             PrintWriter out = response.getWriter();
             out.println("<html><body>");
             out.println("<h1>" + welcome + "</h1>");
