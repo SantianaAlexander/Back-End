@@ -23,7 +23,6 @@ public class HelloServlet extends HttpServlet {
         HttpSession session = request.getSession(true);
         session.setAttribute("username", username);
         session.setAttribute("password", password);
-        if ()
 
             private static final Map<String, String> credentials = new HashMap<>();
 
